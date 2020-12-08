@@ -652,7 +652,7 @@ ul.ftr-navg li a:hover{
 }
 
 
-/*--contact stART HERE--*/
+
 .contact-top {
 	text-align: center;
 	padding-bottom: 3em;
@@ -726,7 +726,7 @@ ul.ftr-navg li a:hover{
 	width: 80%;
 	margin: 0 auto;
 }
-/*--contact end here */
+
 #toTop {
 	display:none;
 	text-decoration: none;
@@ -740,4 +740,13 @@ ul.ftr-navg li a:hover{
 	text-indent: 100%;
 	background-size: 35px;
 	background: url(../images/arr.png) no-repeat 0px 0px;
+}
+@media screen and (max-width: 1280px) { 
+	div.contentblock {width: 1200px;} 
+} 
+@media screen and (max-width: 1140px) { 
+	div.contentblock {width: 1024px;} 
+} 
+@media screen and (max-width: 992px) { 
+	div.contentblock {width: 970px;} 
 }
